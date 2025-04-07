@@ -75,12 +75,9 @@
   background-color: #ffffff;
 }
 .first-section {
-  background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
   padding: 188px 0;
 }
-.frst-section .site-title {
+.first-section .site-title {
   color: #ffffff;
   font-size: 56px;
   font-family: "Roboto", sans-serif;
@@ -90,6 +87,15 @@
   text-align: center;
   margin: 0 auto;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.first-content {
+  text-align: center;
+}
+
 .site-title {
   font-family: "Raleway", sans-serif;
   font-size: 56px;
@@ -98,14 +104,11 @@
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
-  margin: 0 auto;
-  padding-top: 260px;
-  padding-left: 472px;
-  top: 260px;
-  padding-right: 472px;
-  max-width: 496px;
+    max-width: 496px;
+  margin: 0 auto 32px;
+  
 }
-.btn {
+.order-btn {
   background-color: #4d5ae5;
   color: white;
   font-size: 16px;
@@ -114,25 +117,16 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  border-radius: 4px;
-  min-width: 169px;
-  height: 56px;
   border: none;
   margin: 0 auto;
-}
-.first-btn {
-  display: block;
+   display: block;
   min-width: 169px;
-  height: 56px;
-  border: none;
-  background-color: #4d5ae5;
-  border-radius: 4px;
-  cursor: pointer;
+  height: 56px
 }
 
-.btn:hover,
-.btn:focus {
+
+.order-btn:hover,
+.order-btn:focus {
   background-color: #404bbf;
 }
 .main-page {
