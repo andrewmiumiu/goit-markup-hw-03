@@ -16,13 +16,15 @@
   margin-left: 156px;
   margin-top: 24px;
   gap: 40px;
-  max-width: 1158px;
-  padding: 0 15px 0 15px;
+
   align-items: center;
 }
 .nav-menu {
   display: flex;
   gap: 40px;
+}
+.header-logotype {
+  margin-right: 76px;
 }
 .contact-list {
   display: flex;
@@ -32,8 +34,9 @@
 .header-container {
   display: flex;
   justify-content: space-between;
-   width: 1158px;
+  width: 1158px;
   padding: 0 15px 0 15px;
+  margin: 0 auto;
 }
 
 .nav-menu .nav-link {
@@ -45,6 +48,7 @@
   transition: color 0.3s ease;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  padding: 24px 0 24px;
 }
 .nav-menu .nav-link:hover,
 .nav-menu .nav-link:focus {
