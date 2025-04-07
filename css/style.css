@@ -32,6 +32,8 @@
 .header-container {
   display: flex;
   justify-content: space-between;
+   width: 1158px;
+  padding: 0 15px 0 15px;
 }
 
 .nav-menu .nav-link {
