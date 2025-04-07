@@ -16,6 +16,9 @@
   margin-left: 156px;
   margin-top: 24px;
   gap: 40px;
+  max-width: 1158px;
+  padding: 0 15px 0 15px;
+  align-items: center;
 }
 .nav-menu {
   display: flex;
