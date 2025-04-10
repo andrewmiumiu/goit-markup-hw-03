@@ -183,7 +183,7 @@
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.ab {
+.abt-us {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
@@ -197,7 +197,7 @@
   max-width: 496px;
   margin-bottom: 72px;
 }
-.team-list {
+.t {
   display: flex;
   gap: 24px;
   justify-content: center;
