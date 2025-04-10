@@ -248,7 +248,7 @@
   padding-bottom: 120px;
 }
 .portfolio-list {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   padding-bottom: 120px;
