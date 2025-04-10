@@ -211,6 +211,10 @@
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
+.team-members {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .names {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
