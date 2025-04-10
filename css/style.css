@@ -177,14 +177,13 @@
   gap: 24px;
   width: calc((100% - 72px) / 4);
 }
-.values-item {
-}
+
 .section-about {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.abt-us {
+.ab {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
@@ -197,7 +196,6 @@
   margin: 0 auto;
   max-width: 496px;
   margin-bottom: 72px;
-  width: calc((100% - 72px) / 4);
 }
 .team-list {
   display: flex;
