@@ -175,8 +175,6 @@
 .values {
   display: flex;
   gap: 24px;
-}
-.values-item {
   width: calc((100% - 72px) / 4);
 }
 .section-about {
