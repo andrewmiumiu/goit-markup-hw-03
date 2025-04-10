@@ -197,6 +197,7 @@
   margin: 0 auto;
   max-width: 496px;
   margin-bottom: 72px;
+  width: calc((100% - 72px) / 4);
 }
 .team-list {
   display: flex;
