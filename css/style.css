@@ -177,8 +177,6 @@
   gap: 24px;
   width: calc((100% - 72px) / 4);
 }
-.values-item {
-}
 .section-about {
   background-color: #f4f4fd;
   padding-top: 120px;
@@ -249,11 +247,13 @@
 }
 .portfolio-list {
   display: flex;
+  flex-wrap: wrap;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   padding-bottom: 120px;
   padding-left: 156px;
   padding-right: 156px;
+  row-gap: 48px;
 }
 .portfolio-title {
   font-family: "Roboto", sans-serif;
