@@ -1,4 +1,4 @@
-.logo {
+..logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -177,6 +177,8 @@
   gap: 24px;
   width: calc((100% - 72px) / 4);
 }
+.values-item {
+}
 .section-about {
   background-color: #f4f4fd;
   padding-top: 120px;
@@ -194,7 +196,7 @@
   text-align: center;
   margin: 0 auto;
   max-width: 496px;
-  margin-bottom: 40px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -216,9 +218,10 @@
   line-height: 1.2;
   text-align: center;
   margin: 0 auto;
-  max-width: 264px;
   margin-top: 8px;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .roles {
   font-family: "Roboto", sans-serif;
@@ -324,5 +327,4 @@ img {
   padding-top: 140px;
   margin-left: 156px;
 }
-
 
