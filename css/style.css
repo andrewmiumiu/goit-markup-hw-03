@@ -254,6 +254,7 @@
   padding-left: 156px;
   padding-right: 156px;
   row-gap: 48px;
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-title {
   font-family: "Roboto", sans-serif;
