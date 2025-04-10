@@ -1,4 +1,4 @@
-..logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -177,7 +177,8 @@
   gap: 24px;
   width: calc((100% - 72px) / 4);
 }
-
+.values-item {
+}
 .section-about {
   background-color: #f4f4fd;
   padding-top: 120px;
@@ -226,7 +227,6 @@
   margin: 0 auto;
   margin-top: 8px;
   margin-bottom: 8px;
-  
   border-radius: 0px 0px 4px 4px;
 }
 .roles {
@@ -244,6 +244,8 @@
 }
 .section-portfolio {
   background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .portfolio-list {
   display: grid;
@@ -262,8 +264,7 @@
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .projects {
   font-family: "Roboto", sans-serif;
