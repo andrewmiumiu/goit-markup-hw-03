@@ -206,8 +206,9 @@
   padding-bottom: 32px;
   width: calc((100% - 72px) / 4);
 }
-.i {
+.item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 .names {
   font-family: "Roboto", sans-serif;
