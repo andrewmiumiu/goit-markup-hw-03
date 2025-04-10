@@ -144,8 +144,16 @@
   background-color: #ffffff;
   padding-top: 120px;
   padding-bottom: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 .main-text {
   color: #2e2f42;
@@ -154,6 +162,7 @@
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.2;
+  padding-bottom: 8px;
 }
 .prgph {
   color: #434455;
@@ -165,10 +174,10 @@
 }
 .values {
   display: flex;
-  gap: 70px;
+  gap: 24px;
 }
 .values-item {
-  max-width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 .section-about {
   background-color: #f4f4fd;
@@ -317,4 +326,5 @@ img {
   padding-top: 140px;
   margin-left: 156px;
 }
+
 
