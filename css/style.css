@@ -158,6 +158,7 @@
 }
 .values-list {
   display: flex;
+  gap: 24px;
 }
 .values {
   gap: 24px;
